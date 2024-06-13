@@ -1,0 +1,22 @@
+.carrosselOut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    
+}
+
+.carrossel{
+    filter:drop-shadow(0px 0px 10px #000);
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+}
+
+.container img{
+    width: 100%;    
+}

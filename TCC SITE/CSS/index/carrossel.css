@@ -3,12 +3,12 @@
     align-items: center;
     justify-content: center;
     position: static;
-    
+    overflow: hidden;
+    height: 70vh;
 }
 
-.carrossel{
-    width: 100%;
-}
+
+
 
 .container {
     display: flex;
@@ -17,5 +17,5 @@
 }
 
 .container img{
-    width: 100%;    
+    width: 1200px;    
 }

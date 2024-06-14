@@ -11,10 +11,11 @@
 
 @font-face {
     font-family: 'Chloe';
-    src: url(../CONTEUDO/Chloe-Regular.otf);
+    src: url(../../CONTEUDO/Chloe-Regular.otf);
     font-weight: normal;
 }
 
-body{
-    max-width: 1900px;
+.tudo{
+    max-width: 1200px;
+    margin: auto;
 }

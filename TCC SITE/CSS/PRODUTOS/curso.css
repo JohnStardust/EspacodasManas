@@ -1,0 +1,27 @@
+.curso h1{
+    font-size: 35px;
+    font-family: "Niramit";
+    margin-left: 80px;
+    margin: 80px;
+    color: #bb6363;
+    text-align: center;
+}
+
+.curso img{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.pedro{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.imagemsalao4
+{
+    width: 100%!important;
+    height: 100%!important;
+}

@@ -1,0 +1,18 @@
+.banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../../CONTEUDO/imagemsalao1real_resized.jpg);
+    position: static;
+    margin-bottom: 80px;
+    background-position-y: -90px;  
+    background-repeat: no-repeat;  
+}
+
+.banner h1{
+    position: absolute;
+    font-size: 80px;
+    top: 40vh;
+    left: 50%;
+    margin-left: -389px;
+    color: white;
+}

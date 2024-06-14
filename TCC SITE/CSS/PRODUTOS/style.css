@@ -1,5 +1,8 @@
 @import url(cabeçalho.css);
 @import url('https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url(banner.css);
+@import url(produtos.css);
+@import url(curso.css);
 
 * {
     padding: 0;
@@ -9,10 +12,11 @@
 
 @font-face {
     font-family: 'Chloe';
-    src: url(../CONTEUDO/Chloe-Regular.otf);
+    src: url(../../CONTEUDO/Chloe-Regular.otf);
     font-weight: normal;
 }
 
 body{
-    max-width: 1900px;
+    max-width: 1200px;
+    margin: auto;
 }

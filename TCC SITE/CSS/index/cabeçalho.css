@@ -20,7 +20,7 @@
     font-family: "Niramit";
 }
 .cabeçalho li:hover{
-    background-color: #f57c64;
+    background-color: #f5b6b9;
     color: white;
     border-radius: 10px;
     padding: 5px 10px;
@@ -29,7 +29,7 @@
 
 .Titulo{
     display: flex;
-    color: #f54740;
+    color: #bb6363;
     font-family: 'Chloe';
     width: 100%;
     
@@ -47,7 +47,7 @@
 }
 
 .home{
-    background-color: #f54740;
+    background-color: #bb6363;
     color: white;
     border-radius: 20px;
     padding:  5px 10px;

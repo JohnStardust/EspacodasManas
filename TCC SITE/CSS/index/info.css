@@ -7,7 +7,7 @@
 }
 .info h3{
     font-size: 50px;
-    color: #f54740;
+    color: #BB6363;
 }
 .info p{
     width: 500px;
@@ -16,7 +16,6 @@
 .card{
     width: 400px;
     height: 300px;
-    background-color: black;
     background-image: url(../../CONTEUDO/imagemsalao4.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,13 +24,53 @@
 }
 
 .info button{
-    background-color: #f54740;
+    background-color: #BB6363;
     padding: 10px;
     border-radius: 10px;
     border: 0;
     color: white;
 }
 .info button:hover{
-    background-color: #f57c64;
+    background-color: #f5b6b9;
     cursor: pointer;
+}
+
+/* SERVIÇOS */
+
+.serviços{
+    display: flex;
+    margin-top: 30px;
+    width: 900px;
+    margin: 1rem auto;
+    font-family: 'Niramit';
+}
+
+.serviços h3{
+    font-size: 50px;
+    color: #BB6363;
+}
+.serviços p{
+    width: 500px;
+    margin: 10px;
+}
+
+.serviços button{
+    background-color: #BB6363;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+.serviços button:hover{
+    background-color: #f5b6b9;
+    cursor: pointer;
+}
+.card2{
+    width: 400px;
+    height: 300px;
+    background-image: url(../../CONTEUDO/imagemsalao4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -320px;
+    border-radius: 10px;
 }

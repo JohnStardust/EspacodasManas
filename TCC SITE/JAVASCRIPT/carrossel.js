@@ -9,7 +9,7 @@ function slider(){
         contador = 0;
     }
 
-    box.style.transform = `translateX(${-contador * 100}%)`
+    box.style.transform = `translateX(${-contador * 1920}px)`
 }
 
 setInterval(slider, 2000);

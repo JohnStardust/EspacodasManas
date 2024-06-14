@@ -5,6 +5,8 @@
     height: 120px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 5;
 }
 
 .cabeçalho ul{

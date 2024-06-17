@@ -11,6 +11,7 @@
     width: 450px;
     height: 300px;
     margin: 20px;
+    border-radius: 20px;
 }
 
 .amar{
@@ -28,3 +29,5 @@ div h2{
     display: flex;
     justify-content: space-around;
 }
+
+

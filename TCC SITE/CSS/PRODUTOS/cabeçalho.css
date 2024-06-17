@@ -30,13 +30,13 @@
 .Titulo{
     display: flex;
     color: #bb6363;
-    font-family: 'Chloe';
+    font-family: 'BrownSugar';
     width: 100%;
     
 }
 
 .Titulo h3{
-    margin: 3rem;
+    margin: 2rem;
     font-size: 30px;
 }
 

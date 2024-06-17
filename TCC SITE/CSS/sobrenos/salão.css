@@ -1,0 +1,32 @@
+.prod0 h1{
+    color: #bb6363;
+    font-size: 50px;
+    margin-left: 80px;
+    margin: 20px;
+   
+}
+
+
+.prod0 img{
+    width: 580px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+div h2{
+    padding: 6px;
+    font-family: "Niramit";
+    margin-left: 20px;
+}
+
+
+.tcc0{
+    display: flex;
+   
+}
+
+.tcc{
+    display: flex;
+}

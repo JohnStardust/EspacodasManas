@@ -1,0 +1,35 @@
+.historia{
+    margin-top: 150px;
+}
+
+.font{
+    font-size: 80px;
+    padding: 10px;
+}
+
+.fase{
+    padding: 15px;
+    font-size: 70pxs;
+}
+
+.texto1{
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.texto2{
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgSbr{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.historia{
+    display: flex;
+}

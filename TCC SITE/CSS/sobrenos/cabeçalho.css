@@ -1,0 +1,54 @@
+
+.cabeçalho {
+    background-color: white;
+    height: 120px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 5;
+}
+
+.cabeçalho ul{
+    margin: 2rem;
+    color: #f57c64;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: x-large;
+    font-family: "Niramit";
+}
+.cabeçalho li:hover{
+    background-color: #f5b6b9;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.Titulo{
+    display: flex;
+    color: #bb6363;
+    font-family: 'BrownSugar';
+    width: 100%;
+    
+}
+
+.Titulo h3{
+    margin:  2rem;
+    font-size: 34px;
+}
+
+.cabeçalho img {
+    width: 120px;
+    height: 100px;
+    margin: 1rem;
+}
+
+.sbrnos    {
+    background-color: #bb6363;
+    color: white;
+    border-radius: 20px;
+    padding:  5px 10px;
+}

@@ -1,0 +1,54 @@
+.depoimentos{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+    
+}
+
+.depoimento img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5px;
+}
+
+.cliente{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.depoimento{
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 10px;
+    box-shadow: black 0px 4px 0px 0px;
+    margin-top: 10px;
+}
+
+.cliente p{
+    padding-left: 9px;
+}
+
+.texto h3{
+    font-size: 35px;
+    color: #BB6363;
+    font-family: 'Niramit';
+}
+
+.texto p{
+    font-family: 'Niramit';
+}
+
+.texto button{
+    background-color: #BB6363;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+
+.texto button:hover{
+    background-color: #f5b6b9;
+    cursor: pointer;
+}

@@ -29,10 +29,14 @@
     border-radius: 10px;
     border: 0;
     color: white;
+
 }
 .info button:hover{
     background-color: #f5b6b9;
     cursor: pointer;
+}
+.info a{
+    text-decoration: none;
 }
 
 /* SERVIÇOS */
@@ -64,6 +68,10 @@
 .serviços button:hover{
     background-color: #f5b6b9;
     cursor: pointer;
+}
+
+.serviços a{
+    text-decoration: none;
 }
 .card2{
     width: 400px;

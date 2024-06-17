@@ -1,3 +1,5 @@
+
+
 .depoimentos{
     max-width: 1200px;
     display: flex;
@@ -33,11 +35,11 @@
 .texto h3{
     font-size: 35px;
     color: #BB6363;
-    font-family: 'Niramit';
+    font-family: Montserrat;
 }
 
 .texto p{
-    font-family: 'Niramit';
+    font-family: Montserrat;
 }
 
 .texto button{

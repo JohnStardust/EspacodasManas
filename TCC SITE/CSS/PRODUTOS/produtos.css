@@ -5,7 +5,9 @@
     margin: 20px;
     text-align: center;
 }
-
+.produtos{
+    font-family: 'Montserrat';
+}
 
 .produtos img{
     width: 450px;
@@ -22,7 +24,7 @@
 
 div h2{
     padding: 6px;
-    font-family: "Niramit";
+    font-family: "Montserrat";
 }
 
 .beleza{

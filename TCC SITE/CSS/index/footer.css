@@ -1,9 +1,9 @@
+
 footer {
     background-color: #020202;
     color: #fff;
     padding: 40px 0;
     text-align: center;
-    margin-top: 10rem;
     font-family: 'Montserrat';
 }
 
@@ -16,7 +16,7 @@ footer .container {
 }
 
 .logoft{
-    width: 140px;
+    width: 140px !important;
     height: 140px;
     border-radius: 30px;
     margin-left: 20px;

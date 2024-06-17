@@ -10,15 +10,19 @@
 }
 
 .cabeçalho ul{
-    margin: 2rem;
+    margin: 2.4rem;
     color: #f57c64;
     list-style: none;
     display: flex;
     justify-content: space-around;
     width: 100%;
     font-size: x-large;
-    font-family: "Niramit";
+    font-family: "Montserrat";
 }
+.cabeçalho li{
+    color: #f57c64;
+}
+
 .cabeçalho li:hover{
     background-color: #f5b6b9;
     color: white;
@@ -27,17 +31,23 @@
     cursor: pointer;
 }
 
+.cabeçalho a{
+    text-decoration: none;
+}
+
+
+
 .Titulo{
     display: flex;
     color: #bb6363;
-    font-family: 'BrownSugar';
+    font-family: 'Brownsugar';
     width: 100%;
     
 }
 
 .Titulo h3{
-    margin: 2rem;
-    font-size: 30px;
+    margin:  2rem;
+    font-size: 34px;
 }
 
 .cabeçalho img {
@@ -48,7 +58,8 @@
 
 .servicos{
     background-color: #bb6363;
-    color: white;
+    color: white !important;
     border-radius: 20px;
     padding:  5px 10px;
 }
+

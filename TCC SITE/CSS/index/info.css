@@ -3,7 +3,7 @@
     margin-top: 30px;
     width: 900px;
     margin: 1rem auto;
-    font-family: 'Niramit';
+    font-family: Montserrat;
 }
 .info h3{
     font-size: 50px;
@@ -29,10 +29,14 @@
     border-radius: 10px;
     border: 0;
     color: white;
+
 }
 .info button:hover{
     background-color: #f5b6b9;
     cursor: pointer;
+}
+.info a{
+    text-decoration: none;
 }
 
 /* SERVIÇOS */
@@ -42,7 +46,7 @@
     margin-top: 30px;
     width: 900px;
     margin: 1rem auto;
-    font-family: 'Niramit';
+    font-family: Montserrat;
 }
 
 .serviços h3{
@@ -64,6 +68,10 @@
 .serviços button:hover{
     background-color: #f5b6b9;
     cursor: pointer;
+}
+
+.serviços a{
+    text-decoration: none;
 }
 .card2{
     width: 400px;

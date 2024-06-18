@@ -10,13 +10,18 @@
 }
 
 .cabeçalho ul{
+<<<<<<< Updated upstream
     margin: 2.4rem;
+=======
+    margin: 2rem;
+>>>>>>> Stashed changes
     color: #f57c64;
     list-style: none;
     display: flex;
     justify-content: space-around;
     width: 100%;
     font-size: x-large;
+<<<<<<< Updated upstream
     font-family: "Montserrat";
 }
 .cabeçalho li{
@@ -24,6 +29,10 @@
     
 }
 
+=======
+    font-family: "Niramit";
+}
+>>>>>>> Stashed changes
 .cabeçalho li:hover{
     background-color: #f5b6b9;
     color: white;
@@ -32,6 +41,7 @@
     cursor: pointer;
 }
 
+<<<<<<< Updated upstream
 .cabeçalho a{
     text-decoration: none;
 }
@@ -42,6 +52,12 @@
     display: flex;
     color: #bb6363;
     font-family: 'Brownsugar';
+=======
+.Titulo{
+    display: flex;
+    color: #bb6363;
+    font-family: 'BrownSugar';
+>>>>>>> Stashed changes
     width: 100%;
     
 }
@@ -57,6 +73,7 @@
     margin: 1rem;
 }
 
+<<<<<<< Updated upstream
 .agende{
     background-color: #bb6363;
     color: white !important;
@@ -64,3 +81,11 @@
     padding:  5px 10px;
 }
 
+=======
+.agende    {
+    background-color: #bb6363;
+    color: white;
+    border-radius: 20px;
+    padding:  5px 10px;
+}
+>>>>>>> Stashed changes

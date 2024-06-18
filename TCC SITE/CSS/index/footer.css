@@ -1,10 +1,11 @@
 
 footer {
-    background-color: #020202;
-    color: #fff;
+    background-color: #ffffff;
+    color: #020000;
     padding: 40px 0;
     text-align: center;
     font-family: 'Montserrat';
+    border-top: solid 1px;
 }
 
 footer .container {

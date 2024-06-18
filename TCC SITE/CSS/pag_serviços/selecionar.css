@@ -1,0 +1,21 @@
+.selecionar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.selecionar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.outros{
+    color: #BB6363;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+.sliderSelecionar{
+    margin-bottom: 100px;
+}

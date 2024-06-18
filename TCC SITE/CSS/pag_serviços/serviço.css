@@ -1,0 +1,41 @@
+.serviço{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serviço h3{
+    font-size: 50px;
+    color: #BB6363;
+}
+
+.serviço p{
+    width: 500px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.serviço button{
+    background-color: #BB6363;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+}
+
+.serviço button:hover{
+    background-color: #f5b6b9;
+    cursor: pointer;
+}
+
+.serviço img{
+    border-radius: 10px;
+    width: 400px;
+}
+
+.preço{
+    color: rgb(0, 184, 0);
+}
+

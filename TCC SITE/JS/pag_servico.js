@@ -9,7 +9,14 @@ var grande = {
     descricao: document.getElementById('descriçãoGrande')
 }
 
-var imagemGrande = document.getElementById('imagemgrande')
+
+const imagens = {
+    imagemGrande: document.getElementById('imagemgrande'),
+    imagem1: document.getElementById('imagem1'),
+    imagem2: document.getElementById('imagem2'),
+    imagem3: document.getElementById('imagem3'),
+    imagem4: document.getElementById('imagem4')
+}
 
 
 
@@ -22,7 +29,6 @@ caixa4.addEventListener('click',caixa04)
 
 function caixa01(){
 
-
     localStorage.setItem('nome', grande.nome.innerHTML)
     grande.nome.innerHTML = caixa1.querySelector('.nome').innerHTML;
     caixa1.querySelector('.nome').innerHTML = localStorage.getItem('nome');
@@ -33,12 +39,12 @@ function caixa01(){
 
     localStorage.setItem('descricao', grande.descricao.innerHTML)
     grande.descricao.innerHTML = caixa1.querySelector('.descricao').innerHTML;
-    caixa1.querySelector('.descricao').innerHTML = localStorage.getItem('descricao') 
+    caixa1.querySelector('.descricao').innerHTML = localStorage.getItem('descricao');
 
-    
-
-
-
+    localStorage.setItem('imagemgrande', imagens.imagemGrande.src)
+    imagens.imagemGrande.src = imagens.imagem1.src
+    imagens.imagem1.src = localStorage.getItem('imagemgrande')
+    localStorage.setItem('imagemgrande', imagens.imagemGrande.src)
 }
 
 
@@ -53,7 +59,12 @@ function caixa02(){
 
     localStorage.setItem('descricao', grande.descricao.innerHTML)
     grande.descricao.innerHTML = caixa2.querySelector('.descricao').innerHTML;
-    caixa2.querySelector('.descricao').innerHTML = localStorage.getItem('descricao') 
+    caixa2.querySelector('.descricao').innerHTML = localStorage.getItem('descricao')
+    
+    localStorage.setItem('imagemgrande', imagens.imagemGrande.src)
+    imagens.imagemGrande.src = imagens.imagem2.src
+    imagens.imagem2.src = localStorage.getItem('imagemgrande')
+    localStorage.setItem('imagemgrande', imagens.imagemGrande.src)
 }
 
 
@@ -68,7 +79,12 @@ function caixa03(){
 
     localStorage.setItem('descricao', grande.descricao.innerHTML)
     grande.descricao.innerHTML = caixa3.querySelector('.descricao').innerHTML;
-    caixa3.querySelector('.descricao').innerHTML = localStorage.getItem('descricao') 
+    caixa3.querySelector('.descricao').innerHTML = localStorage.getItem('descricao')
+
+    localStorage.setItem('imagemgrande', imagens.imagemGrande.src)
+    imagens.imagemGrande.src = imagens.imagem3.src
+    imagens.imagem3.src = localStorage.getItem('imagemgrande')
+    localStorage.setItem('imagemgrande', imagens.imagemGrande.src)
 }
 
 
@@ -85,5 +101,10 @@ function caixa04(){
     localStorage.setItem('descricao', grande.descricao.innerHTML)
     grande.descricao.innerHTML = caixa4.querySelector('.descricao').innerHTML;
     caixa4.querySelector('.descricao').innerHTML = localStorage.getItem('descricao') 
+
+    localStorage.setItem('imagemgrande', imagens.imagemGrande.src)
+    imagens.imagemGrande.src = imagens.imagem4.src
+    imagens.imagem4.src = localStorage.getItem('imagemgrande')
+    localStorage.setItem('imagemgrande', imagens.imagemGrande.src)
 }
 

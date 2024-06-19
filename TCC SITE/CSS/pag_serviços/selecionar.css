@@ -19,3 +19,7 @@
 .sliderSelecionar{
     margin-bottom: 100px;
 }
+
+.imagem1:hover{
+    border-radius: 1px solid black;
+}

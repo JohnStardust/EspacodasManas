@@ -21,6 +21,8 @@ const imagens = {
 
 
 
+
+
 caixa1.addEventListener('click',caixa01)
 caixa2.addEventListener('click',caixa02)
 caixa3.addEventListener('click',caixa03)

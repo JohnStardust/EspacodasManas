@@ -1,35 +1,40 @@
-.selecionar{
+.selecionar {
     display: flex;
     justify-content: space-evenly;
 }
 
-.selecionar img{
+.selecionar img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
 }
 
-.outros{
+.outros {
     color: #BB6363;
     font-size: 30px;
     text-align: center;
     margin: 30px;
 }
 
-.sliderSelecionar{
+.sliderSelecionar {
     margin-bottom: 100px;
     border-radius: 12px solid black;
     box-shadow: 1px black;
 }
 
-.caixa1:hover, .caixa2:hover, .caixa3:hover, .caixa4:hover{
+.caixa1:hover,
+.caixa2:hover,
+.caixa3:hover,
+.caixa4:hover {
     scale: 1.1;
     border: 1px none black;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px ;
+    border-radius: 10px;
     cursor: pointer;
 }
 
-.nome, .descricao, .preço{
+.nome,
+.descricao,
+.preço {
     padding: 5px;
 }

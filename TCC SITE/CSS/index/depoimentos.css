@@ -53,4 +53,5 @@
 .texto button:hover{
     background-color: #f5b6b9;
     cursor: pointer;
+    scale: 1.1;
 }

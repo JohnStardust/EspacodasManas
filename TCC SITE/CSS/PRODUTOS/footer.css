@@ -5,7 +5,7 @@ footer {
     padding: 40px 0;
     text-align: center;
     font-family: 'Montserrat';
-    border-top: solid 1px;
+    border-top: 1px solid black;
 }
 
 footer .container {

@@ -18,8 +18,28 @@ const imagens = {
     imagem4: document.getElementById('imagem4')
 }
 
+const urlParams = new URLSearchParams(window.location.search);
+const funcao = urlParams.get('funcao');
 
 
+switch (funcao) {
+    case '1':
+        caixa01();
+        break;
+    case '2':
+        caixa02();
+        break;
+    case '3':
+        caixa03();
+        break;
+    case '4':
+        caixa04();
+        break;
+    default:
+        // Caso nenhum parâmetro válido seja passado, não faz nada ou exibe um aviso
+        console.error('Função não especificada ou inválida.');
+        break;
+}
 
 
 

@@ -18,8 +18,18 @@
 
 .sliderSelecionar{
     margin-bottom: 100px;
+    border-radius: 12px solid black;
+    box-shadow: 1px black;
 }
 
-.imagem1:hover{
-    border-radius: 1px solid black;
+.caixa1:hover, .caixa2:hover, .caixa3:hover, .caixa4:hover{
+    scale: 1.1;
+    border: 1px none black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+.nome, .descricao, .preço{
+    padding: 5px;
 }

@@ -3,6 +3,7 @@
     font-size: 50px;
     margin-left: 80px;
     margin: 20px;
+    font-family: "Montserrat";
    
 }
 
@@ -16,8 +17,8 @@
 
 
 div h2{
-    padding: 6px;
-    font-family: "Niramit";
+    padding: 5px;
+    font-family: "Montserrat";
     margin-left: 20px;
 }
 

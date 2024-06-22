@@ -1,40 +1,47 @@
-.produtos h1{
+.produtos h1 {
     color: #bb6363;
     font-size: 35px;
     margin-left: 80px;
     margin: 20px;
     text-align: center;
 }
-.produtos{
+
+.produtos {
     font-family: 'Montserrat';
 }
 
-.produtos img{
+.produtos img {
     width: 450px;
     height: 300px;
     margin: 20px;
     border-radius: 20px;
 }
 
-.amar{
+.amar {
     margin-bottom: 40px;
     display: flex;
     justify-content: space-around;
 }
 
 
-div h2{
+div h2 {
     padding: 6px;
     font-family: "Montserrat";
 }
 
-.beleza{
+.beleza {
     display: flex;
     justify-content: space-around;
 }
 
-#caixa1, #caixa2, #caixa3, #caixa4{
+#caixa1,
+#caixa2,
+#caixa3,
+#caixa4 {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.produtos img:hover {
+    scale: 1.1;
+}
 

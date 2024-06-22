@@ -1,31 +1,38 @@
-.historia{
-    margin-top: 150px;
+.histudo{
+    padding-top: 120px; 
 }
 
 .font{
     font-size: 80px;
-    padding: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #BB6363;
+    font-family: "Montserrat";
 }
 
 .fase{
-    padding: 15px;
-    font-size: 70pxs;
+    font-size: 50px;
+    color: #BB6363;
+    font-family: "Montserrat";
 }
 
 .texto1{
-    font-size: 18px;
+    font-size: larger;
     padding: 20px;
-    text-align: center;
+    text-align: justify;
+    font-family: "Montserrat";
 }
 
 .texto2{
-    font-size: 18px;
+    font-size: larger;
     padding: 20px;
-    text-align: center;
+    text-align: justify;
+    font-family: "Montserrat";  
 }
 
+
 .imgSbr{
-    width: 450px;
+    width: 500px;
     height: 500px;
     border-radius: 20px;
 }

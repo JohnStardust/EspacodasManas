@@ -4,11 +4,9 @@
     justify-content: center;
     position: static;
     overflow: hidden;
-    height: 70vh;
+    padding-top: 100px;
+    
 }
-
-
-
 
 .container {
     display: flex;
@@ -17,5 +15,5 @@
 }
 
 .container img{
-    width: 1200px;    
+    width: 100%;    
 }

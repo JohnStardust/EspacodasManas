@@ -1,7 +1,7 @@
 .serviço{
-    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 120px;
 }
 
 .serviço h3{
@@ -11,8 +11,7 @@
 
 .serviço p{
     width: 500px;
-    margin: 5px;
-    font-size: 30px;
+    font-size: x-large;
 }
 
 .serviço button{

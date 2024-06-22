@@ -12,6 +12,7 @@
 .info p{
     width: 500px;
     margin: 10px;
+    font-size: larger;
 }
 .card{
     width: 400px;
@@ -58,6 +59,7 @@
 .serviços p{
     width: 500px;
     margin: 10px;
+    font-size: larger;
 }
 
 .serviços button{

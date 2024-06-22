@@ -4,12 +4,11 @@ let contador = 0;
 
 function slider(){
     contador++;
-
-    if(contador > imagens.length - 1){
+    if(contador > imagens.length - 4){
         contador = 0;
     }
 
-    box.style.transform = `translateX(${-contador * 1200}px)`
+    box.style.transform = `translateX(${-contador * 100}%)`
 }
 
-setInterval(slider, 3000);
+setInterval(slider, 4000);

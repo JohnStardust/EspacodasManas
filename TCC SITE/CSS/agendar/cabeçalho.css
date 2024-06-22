@@ -61,3 +61,72 @@ a{
     text-decoration: none;
     color: #f57c64;
 }
+
+.cabeçalho nav{
+    width: 100%;
+}
+#btn-mobile{
+    display: none;
+}
+@media(max-width: 760px){
+    /* CABEÇALHO RESPONSIVO */
+    .cabeçalho{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #nav{
+        width: 0px;
+    }
+    #btn-mobile{
+        font-family: 'Montserrat';
+        margin: 5px;
+        display: flex;
+        gap: 10px;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        height: 40px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin: 32px;
+    }
+
+    #menu{
+        display: block;
+        position: absolute;
+        width: 50%;
+        top: 100px;
+        height: 0px;
+        transition: .6s;
+        visibility: hidden;
+        margin: 0;
+        padding: 30px;
+        background-color: white;
+        overflow-y: hidden;
+        
+    }
+
+    #nav.active #menu{
+        visibility: visible;
+        height: 30vh;
+        display: table-column;
+        justify-content: space-between;
+        right: 0px;
+        background-color: white;
+    }
+
+    #hamburguer{
+        display: block;
+        border-top: 2px solid black;
+        width: 20px;
+    }
+    #hamburguer::after, #hamburguer::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+    }
+
+}

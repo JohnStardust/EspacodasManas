@@ -74,6 +74,7 @@
 
 
 @media(max-width: 760px){
+    /* CABEÇALHO RESPONSIVO */
     .cabeçalho{
         width: 100%;
         justify-content: space-between;
@@ -99,7 +100,7 @@
         display: block;
         position: absolute;
         width: 50%;
-        top: 120px;
+        top: 100px;
         height: 0px;
         transition: .6s;
         visibility: hidden;
@@ -114,6 +115,7 @@
         visibility: visible;
         height: 30vh;
         display: table-column;
+        justify-content: space-between;
         right: 0px;
         background-color: white;
     }

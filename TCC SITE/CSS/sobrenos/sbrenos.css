@@ -1,5 +1,6 @@
 .histudo{
     padding-top: 120px; 
+    width: 100%;
 }
 
 .font{
@@ -39,4 +40,10 @@
 
 .historia{
     display: flex;
+}
+
+@media(max-width: 760px){
+    .histudo{
+        width: 1100px;
+    }
 }

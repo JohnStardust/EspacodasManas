@@ -25,9 +25,19 @@ div h2{
 
 .tcc0{
     display: flex;
-   
+    width: 1200px;
 }
 
 .tcc{
     display: flex;
+    width: 1200px;
+}
+
+@media(max-width: 760px){
+    .tcc, .tcc0{
+        width: 900px;
+    }
+    .prod0 img{
+        margin: 5px;
+    }
 }

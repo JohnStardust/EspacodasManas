@@ -5,6 +5,7 @@
     margin: 80px;
     color: #bb6363;
     text-align: center;
+    max-width: 1200px;
 }
 
 .curso img{
@@ -27,3 +28,19 @@
     height: 978px!important;
     border-radius: 20px;
 }
+
+@media(max-width: 760px){
+    .curso h1{
+        width: 900px;
+        margin-left: 0;
+        margin: auto;
+        align-items: center;
+    }
+    .curso{
+        margin-top: 40px;
+        width: 900px;
+    }
+    .imagemgrande{
+        display: none;
+    }
+}   

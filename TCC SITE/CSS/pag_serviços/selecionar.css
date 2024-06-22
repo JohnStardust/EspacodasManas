@@ -36,3 +36,24 @@
     cursor: pointer;
 }
 
+@media(max-width: 760px) {
+    .selecionar {
+        width: 900px;
+    }
+
+    .outros {
+        width: 900px;
+        margin: auto;
+    }
+
+    .caixa1:hover,
+    .caixa2:hover,
+    .caixa3:hover,
+    .caixa4:hover {
+        scale: 1;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px;
+        border-radius: 0px;
+        cursor: pointer;
+    }
+}

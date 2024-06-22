@@ -5,15 +5,23 @@
     position: static;
     overflow: hidden;
     padding-top: 100px;
-    
 }
 
 .container {
     display: flex;
     transition: 0.7s ease-in-out;
     transform: translateX(0);
+
 }
 
 .container img{
     width: 100%;    
+}
+
+@media(max-width:760px){
+    .carrosselOut{
+        display: flex;
+        width: 900px;
+        font-family: Montserrat;
+    }
 }

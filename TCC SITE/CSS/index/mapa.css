@@ -7,6 +7,10 @@
     left: 50%;
 }
 
+.mapa{
+    margin-top: 30px;
+}
+
 .conteudo h3{
     margin-top: 10px;
     margin-bottom: 0px;
@@ -27,4 +31,21 @@
 .conteudo button:hover{
     background-color: #f5b6b9;
     cursor: pointer;
+}
+
+@media(max-width: 760px){
+    .mapa iframe{
+        width: 900px;
+    }
+    .conteudo h3{
+        font-size: 40px;
+        width: 300px;
+       margin-left: 50%;
+    }
+    .conteudo button{
+        display: none;
+    }
+    
+
+    
 }

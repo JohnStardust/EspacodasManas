@@ -4,6 +4,8 @@
   
     /* Set a specific height */
     min-height: 500px;
+    width: 1200px;
+
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -11,3 +13,9 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+@media(max-width:760px){
+  .parallax{
+    width: 900px;
+  }
+}

@@ -87,3 +87,13 @@
     background-position: -320px;
     border-radius: 10px;
 }
+
+@media(max-width: 760px){
+    .info, .serviços{
+        margin: 5rem auto;
+    }
+    .serviços button, .info button{
+        width: 100%;
+        font-size: 25px;
+    }
+}

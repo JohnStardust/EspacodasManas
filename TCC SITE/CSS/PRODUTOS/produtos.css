@@ -4,6 +4,8 @@
     margin-left: 80px;
     margin: 20px;
     text-align: center;
+    justify-content: center;
+    max-width: 1200px;
 }
 
 .produtos {
@@ -20,7 +22,8 @@
 .amar {
     margin-bottom: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 1200px;
 }
 
 
@@ -31,7 +34,8 @@ div h2 {
 
 .beleza {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 1200px;
 }
 
 #caixa1,
@@ -45,3 +49,17 @@ div h2 {
     scale: 1.1;
 }
 
+@media(max-width: 760px){
+    .amar, .beleza{
+        flex-direction: column;
+        width: 900px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .produtos h1{
+        width: 900px;
+        margin-left: 0;
+        margin: auto;
+        align-items: center;
+    }
+}

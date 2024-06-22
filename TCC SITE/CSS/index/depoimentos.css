@@ -1,11 +1,11 @@
 
-
 .depoimentos{
-    max-width: 1200px;
     display: flex;
-    justify-content: space-evenly;
-    margin: 3rem;
-    
+    margin-top: 50px;
+    width: 900px;
+    margin: auto;
+    font-family: Montserrat;
+        
 }
 
 .depoimento img{
@@ -54,4 +54,14 @@
     background-color: #f5b6b9;
     cursor: pointer;
     scale: 1.1;
+}
+
+@media(max-width: 760px){
+    .depoimentos{
+        margin: 5rem auto;
+    }
+    .texto button{
+        width: 100%;
+        font-size: 25px;
+    }
 }

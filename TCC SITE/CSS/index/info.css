@@ -93,7 +93,19 @@
         margin: 5rem auto;
     }
     .serviços button, .info button{
-        width: 100%;
         font-size: 25px;
+    }
+
+    .serviços p, .serviços h3, .info p, .info h3{
+        padding-left: 50px;
+    }
+
+    .serviços button, .info button{
+        margin-left: 50px;
+    }
+
+    .card, .card2{
+        width: 300px;
+        padding-right: 50px;
     }
 }

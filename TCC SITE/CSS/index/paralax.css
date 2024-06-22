@@ -4,7 +4,7 @@
   
     /* Set a specific height */
     min-height: 500px;
-    width: 1200px;
+    width: 100%;
 
   
     /* Create the parallax scrolling effect */
@@ -16,6 +16,6 @@
 
 @media(max-width:760px){
   .parallax{
-    width: 900px;
+    width: 100%;
   }
 }

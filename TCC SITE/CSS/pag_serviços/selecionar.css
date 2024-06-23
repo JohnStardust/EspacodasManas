@@ -38,11 +38,14 @@
 
 @media(max-width: 760px) {
     .selecionar {
-        width: 900px;
+        width: 100%;
+        gap: 20px;
+        overflow-x: scroll;
+        justify-content: space-between;
     }
 
     .outros {
-        width: 900px;
+        width: 100%;
         margin: auto;
     }
 

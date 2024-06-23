@@ -38,3 +38,8 @@
     color: rgb(0, 184, 0);
 }
 
+@media(max-width: 760px){
+    .serviço, .serviço p, .serviço img{
+        width: 100%;
+    }
+}

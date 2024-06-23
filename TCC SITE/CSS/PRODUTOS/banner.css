@@ -22,7 +22,7 @@
     }
     .banner h1{
         font-size: 50px;
-        margin-left: -221.5px;
+        margin-left: calc(100%/-2);
     }
 
 }

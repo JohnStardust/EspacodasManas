@@ -19,10 +19,15 @@
 @media(max-width: 760px){
     .banner{
         width: 100%;
+        align-items: center;
     }
     .banner h1{
+        position: relative;
         font-size: 50px;
         margin-left: calc(100%/-2);
+        width: 300px;
+        padding-left: 30px;
+        
     }
 
 }

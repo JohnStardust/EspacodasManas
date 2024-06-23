@@ -68,6 +68,6 @@ footer .footer-bottom {
 
 @media(max-width: 760px){
     footer{
-        width: 1160px;
+        width: 100%;
     }
 }

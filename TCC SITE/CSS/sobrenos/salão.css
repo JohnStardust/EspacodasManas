@@ -25,12 +25,12 @@ div h2{
 
 .tcc0{
     display: flex;
-    width: 1200px;
+    width: 100%;
 }
 
 .tcc{
     display: flex;
-    width: 1200px;
+    width: 100%;
 }
 
 @media(max-width: 760px){
@@ -38,6 +38,7 @@ div h2{
         width: 80%;
         flex-direction: column;
     }
+    
     .prod0 img{
         margin: 5px;
     }
@@ -45,6 +46,6 @@ div h2{
         width: 80%;
     }
     .tcc div, .tcc0 div{
-        margin: auto;
+        width: 100%;
     }
 }

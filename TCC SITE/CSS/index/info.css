@@ -90,22 +90,27 @@
 
 @media(max-width: 760px){
     .info, .serviços{
-        margin: 5rem auto;
+        width: 100%;
+        flex-direction: column-reverse;
     }
-    .serviços button, .info button{
-        font-size: 25px;
+    .info p, .serviços p{
+        width: 100%;
+        padding: 1rem;
     }
-
-    .serviços p, .serviços h3, .info p, .info h3{
-        padding-left: 50px;
+    #texto1, #texto2{
+        width: 100%;
+        padding: 10px;
     }
-
-    .serviços button, .info button{
-        margin-left: 50px;
-    }
-
     .card, .card2{
-        width: 300px;
-        padding-right: 50px;
+        margin: auto;
     }
+    .serviços h3, .info h3{
+        text-align: center;
+    }
+
+    .serviços button, .info button{
+        width: 100%;
+        font-size: 30px;
+    }
+
 }

@@ -35,17 +35,9 @@
 
 @media(max-width: 760px){
     .mapa iframe{
-        width: 900px;
-    }
-    .conteudo h3{
-        font-size: 40px;
-        width: 300px;
-       margin-left: 50%;
+        width: 100%;
     }
     .conteudo button{
         display: none;
     }
-    
-
-    
 }

@@ -58,7 +58,9 @@
 
 @media(max-width: 760px){
     .depoimentos{
+        width: 100%;
         margin: 5rem auto;
+        flex-direction: column;
     }
     .texto button{
         width: 100%;

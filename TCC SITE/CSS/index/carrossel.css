@@ -21,7 +21,10 @@
 @media(max-width:760px){
     .carrosselOut{
         display: flex;
-        width: 900px;
+        width: 100%;
         font-family: Montserrat;
+    }
+    .texto, .depoimento{
+        margin: 2rem;
     }
 }

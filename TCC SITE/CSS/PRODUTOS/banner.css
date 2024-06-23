@@ -19,10 +19,11 @@
 
 @media(max-width: 760px){
     .banner{
-        width: 900px;
+        width: 100%;
     }
     .banner h1{
-        width: 300px;
-        margin: auto;
+        font-size: 50px;
+        margin-left: -251.2px;
     }
+
 }

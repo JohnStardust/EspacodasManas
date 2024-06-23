@@ -31,14 +31,14 @@
 
 @media(max-width: 760px){
     .curso h1{
-        width: 900px;
+        width: 100%;
         margin-left: 0;
         margin: auto;
         align-items: center;
     }
     .curso{
         margin-top: 40px;
-        width: 900px;
+        width: 100%;
     }
     .imagemgrande{
         display: none;

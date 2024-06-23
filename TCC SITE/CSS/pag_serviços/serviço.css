@@ -39,6 +39,9 @@
 }
 
 @media(max-width: 760px){
+    .serviço{
+        flex-direction: column;
+    }
     .serviço, .serviço p, .serviço img{
         width: 100%;
     }

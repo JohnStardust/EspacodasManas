@@ -31,16 +31,23 @@
 
 @media(max-width: 760px){
     .curso h1{
-        width: 100%;
+        width: 100% ;
         margin-left: 0;
         margin: auto;
         align-items: center;
     }
-    .curso{
-        margin-top: 40px;
+    .curso{ 
+        margin-top: 30px;
         width: 100%;
     }
     .imagemgrande{
         display: none;
+    }
+    .aside{
+        margin: auto;
+    }
+
+    .curso img{
+        width: 500px;
     }
 }   

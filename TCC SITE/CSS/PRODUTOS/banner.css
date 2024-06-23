@@ -1,5 +1,5 @@
 .banner{
-    width: 1200px;
+    max-width: 1200px;
     height: 80vh;
     background-image: url(../../CONTEUDO/imagemsalao1real_resized.jpg);
     position: static;

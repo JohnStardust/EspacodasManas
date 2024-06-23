@@ -49,17 +49,41 @@ div h2 {
     scale: 1.1;
 }
 
-@media(max-width: 760px){
-    .amar, .beleza{
+@media(max-width: 760px) {
+
+    .amar,
+    .beleza {
         flex-direction: column;
         width: 100%;
         margin: 0 auto;
         align-items: center;
     }
-    .produtos h1{
+
+    .produtos h1 {
         width: 100%;
         margin-left: 0;
         margin: auto;
         align-items: center;
+    }
+
+    .beleza,
+    .amar {
+        width: 100%;
+
+    }
+
+    #caixa1,
+    #caixa2,
+    #caixa3,
+    #caixa4 {
+        margin: auto;
+        width: 60%;
+    }
+
+    .produtos img{
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
     }
 }

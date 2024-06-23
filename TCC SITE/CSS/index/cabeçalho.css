@@ -47,7 +47,7 @@
     display: flex;
     color: #bb6363;
     font-family: 'Brownsugar';
-    width: 100%;
+    max-width: 100%;
     
 }
 
@@ -57,7 +57,7 @@
 }
 
 .cabeçalho img {
-    width: 120px;
+    max-width: 120px;
     height: 100px;
     margin: 1rem;
 }
@@ -134,5 +134,7 @@
         background-color: currentColor;
         margin-top: 5px;
     }
-
+    .Titulo{
+        font-size: 20px;
+    }
 }

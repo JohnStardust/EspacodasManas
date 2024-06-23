@@ -2,7 +2,7 @@
 .cabeçalho {
     background-color: white;
     height: 120px;
-    width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -20,6 +20,7 @@
     font-family: "Montserrat";
     gap: 1px;
 }
+
 .cabeçalho nav{
     width: 100%;
 }

@@ -51,15 +51,17 @@ div h2{
     .prod{
         width: 80%;
         margin: auto;
+
     }
     .prod div{
         width: 100%;
+        align-items: center;
     }
     .prod0 img{
         margin: 5px;
     }
     .tcc img, .tcc0 img{
-        width: 100%;
+        width: 300px;
     }
     .tcc div, .tcc0 div{
         margin: auto;

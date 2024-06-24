@@ -37,6 +37,9 @@ div h2 {
     justify-content: space-evenly;
     width: 1200px;
 }
+#caixa4{
+    width: 300px !important;
+}
 
 #caixa1,
 #caixa2,
@@ -45,9 +48,6 @@ div h2 {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.produtos img:hover {
-    scale: 1.1;
-}
 
 @media(max-width: 760px) {
 

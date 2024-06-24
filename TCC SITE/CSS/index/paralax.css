@@ -1,6 +1,6 @@
 .parallax {
     /* The image used */
-    background-image: url("../../CONTEUDO/imagemsalao3_resized.jpeg");
+    background-image: url("../../CONTEUDO/SalaoTudo.jpeg");
   
     /* Set a specific height */
     min-height: 500px;
@@ -9,7 +9,7 @@
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position-y: -10px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -17,5 +17,7 @@
 @media(max-width:760px){
   .parallax{
     width: 100%;
+    background-position-x: center;
   }
+
 }

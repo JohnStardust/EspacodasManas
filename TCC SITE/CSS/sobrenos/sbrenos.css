@@ -1,6 +1,6 @@
 .histudo{
     padding-top: 120px; 
-    width: 100%;
+    width: 1200px;
 }
 
 .font{
@@ -30,8 +30,6 @@
     text-align: justify;
     font-family: "Montserrat";  
 }
-
-
 .imgSbrDiv, .imgSbr{
     width: 500px;
     height: 500px;
@@ -44,7 +42,8 @@
 
 @media(max-width: 760px){
     .histudo{
-        width: 90%;
+        width: 100%;
+
     }
     .historia{
         flex-direction: column-reverse;

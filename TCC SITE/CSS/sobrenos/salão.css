@@ -21,11 +21,16 @@ div h2{
     font-family: "Montserrat";
     margin-left: 20px;
 }
-
+.prod{
+    width: 1200px;
+}
 
 .tcc0{
     display: flex;
     width: 100%;
+}
+.prod0{
+    width: 1200px;
 }
 
 .tcc{
@@ -38,14 +43,25 @@ div h2{
         width: 80%;
         flex-direction: column;
     }
-    
+
+    .prod0{
+        width: 100%;
+        text-align: center;
+    }
+    .prod{
+        width: 80%;
+        margin: auto;
+    }
+    .prod div{
+        margin: auto;
+    }
     .prod0 img{
         margin: 5px;
     }
     .tcc img, .tcc0 img{
-        width: 80%;
+        width: 350px;
     }
     .tcc div, .tcc0 div{
-        width: 100%;
+        margin: auto;
     }
 }

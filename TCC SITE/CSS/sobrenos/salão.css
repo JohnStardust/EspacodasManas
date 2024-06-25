@@ -61,7 +61,7 @@ div h2{
         margin: 5px;
     }
     .tcc img, .tcc0 img{
-        width: 300px;
+        width: 100%;
     }
     .tcc div, .tcc0 div{
         margin: auto;

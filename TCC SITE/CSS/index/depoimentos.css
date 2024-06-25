@@ -1,11 +1,12 @@
 
 .depoimentos{
+    padding-top: 40px;
     display: flex;
-    margin-top: 50px;
     width: 900px;
     margin: auto;
     font-family: Montserrat;
-        
+    gap: 10px;
+
 }
 
 .depoimento img{
@@ -40,6 +41,7 @@
 
 .texto p{
     font-family: Montserrat;
+    margin-bottom: 5px;
 }
 
 .texto button{

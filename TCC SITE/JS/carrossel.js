@@ -11,4 +11,4 @@ function slider(){
     box.style.transform = `translateX(${-contador * 100}%)`
 }
 
-setInterval(slider, 4000);
+setInterval(slider, 3000);

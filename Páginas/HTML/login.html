@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/entrar/style.css">
+    <title>Espaço das Manas - Entrar</title>
+</head>
+
+<body>
+    <main class="tudo">
+
+        <header class="cabeçalho">
+            <div class="Titulo">
+                <img src="../CONTEUDO/logo2.2.jpg">
+                <h3>ESPAÇO DAS MANAS</h3>
+            </div>
+            <button id="btn-mobile">Menu
+
+                <span id="hamburguer"></span>
+            </button>
+            <nav id="nav">
+                <ul id="menu">
+                    <a href="../index.html">
+                        <li>Voltar</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <section class="formulario">
+            <h2>LOGIN</h2>
+            <form action="" class="caixasinput">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="username" name="username" placeholder="nome">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="password">Senha</label>
+                <input type="password" id="password">
+
+                
+
+                <div class="right">
+                    <span class="loginwith">Entrar com <br> Social network</span>
+                    <button class="social-signin facebook">Log in with facebook</button>
+                    <button class="social-signin twitter">Log in with twitter</button>
+                    <button class="social-signin google">Log in with google</button>
+                </div>
+            </form>
+            <div class="logincaixa"><input type="submit" id="sighUp" value="Sign up" name="signup_submit"></div>
+        </section>
+    </main>
+
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+    import { getDatabase } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+    import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyBoZy5sCxqSuIHgFocVk2rwYQ1J52h9qCk",
+        authDomain: "login-manas-64f61.firebaseapp.com",
+        databaseURL: "https://login-manas-64f61-default-rtdb.firebaseio.com",
+        projectId: "login-manas-64f61",
+        storageBucket: "login-manas-64f61.appspot.com",
+        messagingSenderId: "183301582867",
+        appId: "1:183301582867:web:469a542e1618966138cfe6"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    const auth = getAuth();
+
+    sighUp.addEventListener('click', (e) => {
+
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+        var username = document.getElementById('username').value;
+
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                // Signed up 
+                const user = userCredential.user;
+
+                alert('user created!')
+                // ...
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                alert(errorMessage)
+                // ..
+            });
+    })
+</script>
+
+</html>

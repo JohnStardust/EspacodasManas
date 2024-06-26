@@ -18,20 +18,32 @@
     background-color: rgba(255, 255, 255, 0.795);
     border-radius: 10px;
 }
-.conteudo button{
-    width: 500px;
-    font-size: 30px;
+.conteudo button {
     background-color: #BB6363;
-    padding: 10px;
-    border-radius: 10px;
-    border: 0;
+    border: none;
     color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+.conteudo button {
+    background-color: #BB6363; 
+    color: white; 
+    border: 2px solid #BB6363;
 }
 
-.conteudo button:hover{
-    background-color: #f5b6b9;
-    cursor: pointer;
-}
+.conteudo button:hover {
+    background-color: #fff;
+    color: #BB6363;
+  }
 
 @media(max-width: 760px){
     .mapa iframe{

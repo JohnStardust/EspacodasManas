@@ -26,7 +26,7 @@
 .cabeçalho li:hover{
     background-color: #f5b6b9;
     color: white;
-    border-radius: 10px;
+    border-radius: 120px;
     padding: 5px 10px;
     cursor: pointer;
 }

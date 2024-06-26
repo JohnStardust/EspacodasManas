@@ -44,19 +44,45 @@
     margin-bottom: 5px;
 }
 
-.texto button{
+.texto button {
+    display: inline-block;
+    border-radius: 20px;
     background-color: #BB6363;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
     padding: 10px;
-    border-radius: 10px;
-    border: 0;
-    color: white;
-}
-
-.texto button:hover{
-    background-color: #f5b6b9;
+    width: 150px;
+    transition: all 0.5s;
     cursor: pointer;
-    scale: 1.1;
-}
+    margin: 5px;
+  }
+  
+  .texto button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .texto button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .texto button:hover span {
+    padding-right: 25px;
+  }
+  
+  .texto button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 @media(max-width: 760px){
     .depoimentos{

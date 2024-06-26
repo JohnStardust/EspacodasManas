@@ -15,7 +15,6 @@
 }
 
 
-
 .pedro{
     display: flex;
     justify-content: space-evenly;
@@ -25,7 +24,7 @@
 .imagemsalao4
 {
     width: 100%!important;
-    height: 978px!important;
+    height: 900px!important;
     border-radius: 20px;
 }
 

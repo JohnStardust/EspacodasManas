@@ -1,0 +1,44 @@
+.Caixas{
+    margin: auto;
+    padding-top: 120px;
+    width: 200px;
+    font-family: 'Montserrat';
+}
+
+.Caixas form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+}
+
+.Caixas input, .Caixas select{
+    margin: 10px;
+    scale: 2;
+    margin: 20px;
+}
+
+
+
+.Caixas h2{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin: auto;
+}
+
+#enviar{
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #BB6363;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px auto;
+    scale: 1 !important;
+}

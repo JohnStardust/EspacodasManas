@@ -20,7 +20,7 @@
 
         <header class="cabeçalho">
             <div class="Titulo">
-                <img src="./CONTEUDO/logo2.2.jpg">
+                <img src="./CONTEUDO/logo2.2.jpg" id="imagemLogo">
                 <h3>ESPAÇO DAS MANAS</h3>
             </div>
             <button id="btn-mobile">Menu
@@ -237,6 +237,15 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="JS/carrossel.js"></script>
     <script src='JS/cabeçalho_responsivo.js'></script>
+    <script>
+        const imagemLogo = document.getElementById('imagemLogo');
+
+imagemLogo.addEventListener('click', restrito)
+
+function restrito(){
+    window.location.href = ''
+}
+    </script>
 </body>
 
 </html>

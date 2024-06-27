@@ -5,6 +5,7 @@
     position: static;
     overflow: hidden;
     padding-top: 100px;
+    width: 1200px;
 }
 
 .container {
@@ -15,7 +16,7 @@
 }
 
 .container img{
-    width: 100%;    
+    width: 1200px;    
 }
 
 @media(max-width:760px){

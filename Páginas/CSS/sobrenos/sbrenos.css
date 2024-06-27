@@ -5,6 +5,7 @@
 
 .font{
     font-size: 80px;
+    margin-bottom: 20px;
     padding: 5px;
     text-align: center;
     color: #BB6363;
@@ -32,7 +33,7 @@
 }
 .imgSbrDiv, .imgSbr{
     width: 500px;
-    height: 500px;
+    height: 600px;
     border-radius: 20px;
 }
 

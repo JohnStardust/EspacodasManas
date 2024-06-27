@@ -1,71 +1,83 @@
-
 .cabeçalho {
-    background-color: white;
-    height: 120px;
-    width: 1200px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 10px 20px; /* Reduzi o espaçamento interno do cabeçalho */
     position: fixed;
-    z-index: 5;
+    width: 1200px;
+    background-color: white;
+    z-index: 12;
 }
 
-.cabeçalho ul{
-    margin: 2.4rem;
-    color: #f57c64;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    font-size: x-large;
-    font-family: "Montserrat";
-}
-.cabeçalho li{
-    color: #f57c64;
-}
-
-.cabeçalho li:hover{
-    background-color: #f5b6b9;
-    color: white;
-    border-radius: 120px;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.cabeçalho a{
-    text-decoration: none;
-}
-
-
-
-.Titulo{
+.Titulo {
     display: flex;
     color: #bb6363;
     font-family: 'Brownsugar';
-    width: 100%;
-    
+    align-items: center; /* Alinha verticalmente os itens */
 }
 
-.Titulo h3{
-    margin:  2rem;
+.Titulo h3 {
+    margin: 0; /* Removi a margem anterior para o h3 */
     font-size: 34px;
 }
 
-.cabeçalho img {
-    width: 120px;
-    height: 100px;
-    margin: 1rem;
+.Titulo img {
+    max-width: 120px;
+    height: auto;
+    margin-right: 10px;
 }
 
-.servicos{
-    background-color: #bb6363;
-    color: white !important;
-    border-radius: 20px;
-    padding:  5px 10px;
+ul{
+    font-family: "Montserrat";
 }
 
-#btn-mobile{
+#nav {
+    margin-left: auto;
+    
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#menu li {
+    margin-right: 15px; /* Reduzi o espaçamento entre os itens do menu */
+}
+
+#menu li a {
+    color: #bb6363;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    padding: 15px 20px;
+    position: relative;
+    display: inline-block;
+}
+
+#menu li a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #F57C64;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+#menu li a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+#btn-mobile {
     display: none;
 }
+
 @media(max-width: 760px){
     /* CABEÇALHO RESPONSIVO */
     .cabeçalho{

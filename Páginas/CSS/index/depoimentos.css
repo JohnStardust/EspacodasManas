@@ -1,97 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.depoimentos{
-    padding-top: 40px;
-    display: flex;
-    width: 900px;
+.container{
+    max-width: 1170px;
     margin: auto;
-    font-family: Montserrat;
-    gap: 10px;
-
+    padding: 0 15px;
 }
 
-.depoimento img{
-    width: 3rem;
-    height: 3rem;
-    margin: 0.5px;
-}
-
-.cliente{
-    display: flex;
-    margin-top: 10px;
-    
-}
-
-.depoimento{
-    border: 1px solid black;
-    border-radius: 9px;
-    padding: 10px;
-    box-shadow: black 0px 4px 0px 0px;
-    margin-top: 10px;
-}
-
-.cliente p{
-    padding-left: 9px;
-}
-
-.texto h3{
-    font-size: 35px;
-    color: #BB6363;
-    font-family: Montserrat;
-}
-
-.texto p{
-    font-family: Montserrat;
-    margin-bottom: 5px;
-}
-
-.texto button {
-    display: inline-block;
-    border-radius: 20px;
-    background-color: #BB6363;
-    border: none;
-    color: #FFFFFF;
+.section-header{
     text-align: center;
-    font-size: 15px;
-    padding: 10px;
-    width: 150px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-  
-  .texto button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .texto button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .texto button:hover span {
-    padding-right: 25px;
-  }
-  
-  .texto button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
-@media(max-width: 760px){
-    .depoimentos{
-        width: 100%;
-        margin: 5rem auto;
-        flex-direction: column;
-    }
-    .texto button{
-        width: 100%;
-        font-size: 25px;
-    }
+    margin-bottom: 50px;
 }
+
+.section-header .title{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #bb6363;
+    line-height: 1.2;
+}
+
+.testimonials{
+    padding: 100px 0;
+}
+
+.testimonials-item{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+    border: 1px solid #bb6363;
+    width: 800px;
+}
+
+.bloco{
+   display: flex;
+}
+
+.testimonials-item .info{
+    display: flex;
+    align-items: center;
+}
+
+.testimonials-item img{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.testimonials-item .name{
+    font-size: 24px;
+    text-transform: capitalize ;
+    font-weight: 600;
+    color: hsl(0, 58%, 26%);
+    line-height: 1.2;
+}
+
+.testimonials-item .job{
+    text-transform: capitalize;
+    color: hsl(0, 16%, 18%);
+}
+
+.testimonials-item p{
+    margin-top: 20px;
+    color: hsl(0, 0%, 0%);
+}
+
+.testimonials-item .rating{
+    margin-top: 15px;
+    font-size: 14px;
+    color: hsl(36, 88%, 66%);
+}
+

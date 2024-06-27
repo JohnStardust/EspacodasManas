@@ -12,7 +12,9 @@
 
 @font-face {
     font-family: 'BrownSugar';
+    font-family: 'Quentin';
     src: url(../../CONTEUDO/Brown\ Sugar\ .ttf);
+    src: url(../../CONTEUDO/Quentin.otf);
     font-weight: normal;
 }
 

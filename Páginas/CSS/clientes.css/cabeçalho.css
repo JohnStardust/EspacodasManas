@@ -4,8 +4,8 @@
     justify-content: space-between;
     padding: 10px 20px; /* Reduzi o espaçamento interno do cabeçalho */
     position: fixed;
-    width: 1200px;
     background-color: white;
+    width: 1200px;
     z-index: 12;
 }
 
@@ -77,6 +77,7 @@ ul{
 #btn-mobile {
     display: none;
 }
+
 
 @media(max-width: 760px){
     /* CABEÇALHO RESPONSIVO */

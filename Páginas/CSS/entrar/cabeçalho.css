@@ -1,82 +1,75 @@
 .cabeçalho {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px; /* Reduzi o espaçamento interno do cabeçalho */
-    position: fixed;
-    width: 1200px;
     background-color: white;
-    z-index: 12;
+    height: 120px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 5;
 }
 
-.Titulo {
+.cabeçalho ul{
+    margin: 2.4rem;
+    color: #3e3635;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: x-large;
+    font-family: "Montserrat";
+    gap: 1px;
+}
+
+
+
+.cabeçalho li{
+    color: #f57c64;
+}
+
+.cabeçalho li:hover{
+    background-color: #f5b6b9;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cabeçalho a{
+    text-decoration: none;
+}
+
+
+
+.Titulo{
     display: flex;
     color: #bb6363;
     font-family: 'Brownsugar';
-    align-items: center; /* Alinha verticalmente os itens */
-}
-
-.Titulo h3 {
-    margin: 0; /* Removi a margem anterior para o h3 */
-    font-size: 34px;
-}
-
-.Titulo img {
-    max-width: 120px;
-    height: auto;
-    margin-right: 10px;
-}
-
-ul{
-    font-family: "Montserrat";
-}
-
-#nav {
-    margin-left: auto;
+    max-width: 100%;
     
 }
 
-#menu {
-    list-style: none;
-    padding: 0;
-    display: flex;
+.Titulo h3{
+    margin: 2rem;
+    font-size: 34px;
 }
 
-#menu li {
-    margin-right: 15px; /* Reduzi o espaçamento entre os itens do menu */
+.cabeçalho img {
+    max-width: 120px;
+    height: 100px;
+    margin: 1rem;
 }
 
-#menu li a {
-    color: #bb6363;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.15em;
-    padding: 15px 20px;
-    position: relative;
-    display: inline-block;
+.home{
+    background-color: #bb6363;
+    color: white !important;
+    border-radius: 20px;
+    padding:  5px 10px;
 }
 
-#menu li a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #F57C64;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-#menu li a:hover:after {
-    width: 100%;
-    left: 0;
-}
-
-#btn-mobile {
+#btn-mobile{
     display: none;
 }
+
 
 @media(max-width: 760px){
     /* CABEÇALHO RESPONSIVO */

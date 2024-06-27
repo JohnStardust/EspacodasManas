@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar serviços</title>
+    <link rel="stylesheet" href="../CSS/clientes.css/style.css">
+</head>
+
+<body>
+    <main class="tudo">
+        <header class="cabeçalho">
+            <div class="Titulo">
+                <img src="../CONTEUDO/logo2.2.jpg">
+                <h3>ESPAÇO DAS MANAS</h3>
+            </div>
+            <button id="btn-mobile">Menu
+
+                <span id="hamburguer"></span>
+            </button>
+            <nav id="nav">
+                <ul id="menu">
+                    <a href="../index.html">
+                        <li>Voltar</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <section class="Caixas">
+            <h2>REGISTRAR</h2>
+            <form action="https://api.sheetmonkey.io/form/4UXZ4mZ4Z6kyCyXbvgqGYn" method="post">
+                <!-- Put HTML input fields in here and see how they fill up your sheet -->
+                <label for="nome">Nome</label>
+                <input type="text" name="nome">
+                
+                
+                <label for="Dia">Dia</label>
+                <input type="date" name="Dia">
+                
+                <label for="Horário">Horário</label>
+                <input type="time" name="Horário" id="hora">
+                
+                <label for="procedimento">procedimento</label>
+                <input type="text" name="procedimento">
+
+                <label for="pagamento">pagamento</label>
+                <select name="Pagamento">
+                    <option value="pix">pix</option>
+                    <option value="débito">cartão débito</option>
+                    <option value="crédito">cartão crédito</option>
+                    <option value="dinheiro">dinheiro</option>
+                </select>
+
+                <input type="hidden" name="preço">
+                
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+        </section>
+
+    </main>
+    
+</body>
+<script> 
+    var DAta  = new Date();
+    console.log(DAta)
+</script>
+
+</html>

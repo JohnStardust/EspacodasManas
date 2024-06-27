@@ -1,0 +1,52 @@
+.formulario{
+    width: fit-content;
+    padding-top: 120px;
+    margin: auto;
+}
+
+.caixasinput{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario h2{
+    font-size: 80px;
+    color: #BB6363;
+    margin: 2px auto;
+}
+
+.caixasinput label, .caixasinput input{
+    font-size: 30px;
+}
+
+.logincaixa{
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+.logincaixa button{
+    background-color: #BB6363;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+
+.logincaixa button:hover{
+    background-color: #f5b6b9;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.registrarcaixa{
+    margin: auto;
+    display: flex;
+}
+
+.registrarcaixa button{
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 2px;
+    border: 0;
+    color: rgba(25, 0, 255, 0.952);
+}

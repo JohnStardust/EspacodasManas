@@ -28,11 +28,10 @@
                 </ul>
             </nav>
         </header>
+
         <section class="formulario">
 
-
-            <h2>LOGIN</h2>
-
+            <h2>Área Restrita</h2>
 
             <form action="" class="caixasinput">
 
@@ -45,19 +44,15 @@
 
 
             <div class="logincaixa"><input type="submit" id="login" value="Login" name="login"></div>
-            <div class="logoutcaixa"><input type="submit" id="logout" value="Logout" name="logout"></div>
-            <div class="right">
-                <span class="loginwith">registrar com:<br> Social network</span>
-                <button class="social-signin facebook">Log in with facebook</button>
-                <button class="social-signin twitter">Log in with twitter</button>
-                <button class="social-signin google">Log in with google</button>
+            <!-- <div class="right">
                 <p>Sem conta ainda? então se <a href="SignUp.html">inscreva</a></p>
-            </div>
+            </div> -->
         </section>
     </main>
 
 </body>
 <script type="module">
+    
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
     import { getDatabase, set, ref, update } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
@@ -99,6 +94,7 @@
                 })
 
                 alert('logado!')
+                window.location.href = '../HTML/Clientes.html'
                 // ...
             })
             .catch((error) => {
@@ -122,27 +118,18 @@
     });
 
 
-    logout.addEventListener('click', (e) => {
-        signOut(auth).then(() => {
-            // Sign-out successful.
-            alert('Deslogado!')
-        }).catch((error) => {
-            // An error happened.
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            alert(errorMessage)
-        });
-    })
-
-    if (user !== null) {
-        user.providerData.forEach((profile) => {
-            console.log("Sign-in provider: " + profile.providerId);
-            console.log("  Provider-specific UID: " + profile.uid);
-            console.log("  Name: " + profile.displayName);
-            console.log("  Email: " + profile.email);
-            console.log("  Photo URL: " + profile.photoURL);
-        });
-    }       
+    // logout.addEventListener('click', (e) => {
+    //     signOut(auth).then(() => {
+    //         // Sign-out successful.
+    //         alert('Deslogado!')
+    //     }).catch((error) => {
+    //         // An error happened.
+    //         const errorCode = error.code;
+    //         const errorMessage = error.message;
+    //         alert(errorMessage)
+    //     });
+    // })
+     
 </script>
 
 </html>

@@ -43,10 +43,17 @@
     display: flex;
 }
 
-.registrarcaixa button{
-    border-radius: 10px;
-    background-color: #ffffff;
-    padding: 2px;
-    border: 0;
-    color: rgba(25, 0, 255, 0.952);
+#login{
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #BB6363;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px auto;
 }

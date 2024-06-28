@@ -20,25 +20,19 @@
 
         <header class="cabeçalho">
             <div class="Titulo">
-                <img src="./CONTEUDO/logo2.2.jpg" id="imagemLogo">
+                <img src="../Páginas/CONTEUDO/logo2.2.jpg" onclick="restrito()">
                 <h3>ESPAÇO DAS MANAS</h3>
             </div>
-            <button id="btn-mobile">Menu
-
-                <span id="hamburguer"></span>
-            </button>
-
             <nav id="nav">
                 <ul id="menu">
-                    <a href="HTML/SobreNos.html">
-                        <li>Sobre nós</li>
-                    </a>
-                    <a href="HTML/produtos.html">
-                        <li>Serviços</li>
-                    </a>
-                    <li class="home">Home</li>
+                    <li><a href="../Páginas/HTML/SobreNos.html">Sobre Nós</a></li>
+                    <li><a href="../Páginas/HTML/produtos.html">Serviços</a></li>
+                    <li><a href="index.html">Home</a></li>
                 </ul>
             </nav>
+            <button id="btn-mobile">Menu
+                <span id="hamburguer"></span>
+            </button>
         </header>
 
 
@@ -200,7 +194,7 @@
 
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.0447532397684!2d-46.801986!3d-23.6743575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce531994047429%3A0x7bb7392be663a12a!2sEstr.%20de%20Itapecerica%20Campo%20Limpo%2C%203220%20-%20Jardim%20Dom%20Jose%2C%20Embu%20das%20Artes%20-%20SP%2C%2006823-300!5e0!3m2!1spt-BR!2sbr!4v1718626085691!5m2!1spt-BR!2sbr"
-                width="1200px" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                width="1200px" height="450px" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
@@ -238,13 +232,9 @@
     <script src="JS/carrossel.js"></script>
     <script src='JS/cabeçalho_responsivo.js'></script>
     <script>
-        const imagemLogo = document.getElementById('imagemLogo');
-
-imagemLogo.addEventListener('click', restrito)
-
-function restrito(){
-    window.location.href = ''
-}
+        function restrito(){
+            window.location.href = 'HTML/login.html'
+        }
     </script>
 </body>
 

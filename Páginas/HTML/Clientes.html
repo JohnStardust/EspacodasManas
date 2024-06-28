@@ -12,7 +12,7 @@
     <main class="tudo">
         <header class="cabeçalho">
             <div class="Titulo">
-                <img src="../CONTEUDO/logo2.2.jpg">
+                <img src="../CONTEUDO/logo2.2.jpg" onclick="restrito()">
                 <h3>ESPAÇO DAS MANAS</h3>
             </div>
             <button id="btn-mobile">Menu
@@ -65,5 +65,9 @@
     var DAta  = new Date();
     console.log(DAta)
 </script>
-
+<script>
+    function restrito(){
+        window.location.href = '../index.html'
+    }
+</script>
 </html>

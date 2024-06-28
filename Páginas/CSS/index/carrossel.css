@@ -5,17 +5,19 @@
     position: static;
     overflow: hidden;
     padding-top: 100px;
+    width: 1200px;
 }
 
 .container {
     display: flex;
     transition: 0.7s ease-in-out;
     transform: translateX(0);
+    padding: 0px !important;
 
 }
 
 .container img{
-    width: 100%;    
+    max-width: 100%;    
 }
 
 @media(max-width:760px){

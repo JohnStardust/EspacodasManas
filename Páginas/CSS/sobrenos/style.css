@@ -20,3 +20,9 @@
     max-width: 1200px;
     margin: auto;
 }
+
+@font-face{
+    font-family: 'Quentin';
+    src: url(../../CONTEUDO/Quentin.otf);
+    font-weight: normal;
+}

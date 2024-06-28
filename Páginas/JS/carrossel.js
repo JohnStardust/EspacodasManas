@@ -4,7 +4,7 @@ let contador = 0;
 
 function slider(){
     contador++;
-    if(contador > imagens.length - 4){
+    if(contador > imagens.length - 8){
         contador = 0;
     }
 

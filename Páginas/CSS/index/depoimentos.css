@@ -77,3 +77,10 @@
     color: hsl(36, 88%, 66%);
 }
 
+@media(max-width: 760px) {
+    .testimonials-item{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2rem;
+}
+

@@ -3,13 +3,24 @@
     width: 1200px;
 }
 
+.font1{
+    font-size: 226px;
+    text-align: center;
+    color: #f5b6b975;
+    font-family: "Quentin";
+}
+
 .font{
     font-size: 80px;
     margin-bottom: 20px;
     padding: 5px;
-    text-align: center;
+    text-align: center ;
     color: #BB6363;
+    margin-left: -217.5px;
+    left: 50%;
+    top: 210px;
     font-family: "Montserrat";
+    position: absolute;
 }
 
 .fase{
@@ -60,5 +71,13 @@
     }
     .fase{
         text-align: center;
+    }
+    .font1{
+        display: none;
+    }
+    .font{
+        position: inherit;
+        text-align: center;
+        margin: auto;
     }
 }

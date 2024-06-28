@@ -23,6 +23,13 @@ div h2{
 }
 .prod{
     width: 1200px;
+    margin: auto;
+
+}
+
+.prod div{
+    align-items: center;
+    text-align: center;
 }
 
 .tcc0{
@@ -36,6 +43,30 @@ div h2{
 .tcc{
     display: flex;
     width: 100%;
+}
+
+.Video{
+    width: fit-content;
+    margin: auto;
+}
+
+.font2 {
+    font-size: 80px !important;
+    text-align: center !important;
+    color: #BB6363 !important;
+    margin-top: 100px !important;
+    margin-left: -113.28px !important;
+    left: 50% !important;
+    font-family: "Montserrat" !important;
+    position: absolute !important;
+}
+
+.font3{
+    margin: auto;
+    text-align: center;
+    font-size: 226px !important;
+    font-family: "Quentin" !important;
+    color: #f5b6b975 !important;
 }
 
 @media(max-width: 760px){
@@ -65,5 +96,8 @@ div h2{
     }
     .tcc div, .tcc0 div{
         margin: auto;
+    }
+    .Video{
+        display: none;
     }
 }

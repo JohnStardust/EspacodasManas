@@ -12,11 +12,12 @@
     display: flex;
     transition: 0.7s ease-in-out;
     transform: translateX(0);
+    padding: 0px !important;
 
 }
 
 .container img{
-    max-width: 1200px;    
+    max-width: 100%;    
 }
 
 @media(max-width:760px){

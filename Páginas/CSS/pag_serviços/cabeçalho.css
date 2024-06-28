@@ -117,7 +117,7 @@ ul{
 
     #nav.active #menu{
         visibility: visible;
-        height: 30vh;
+        height: 25vh;
         display: table-column;
         justify-content: space-between;
         right: 0px;

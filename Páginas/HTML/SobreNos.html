@@ -14,7 +14,7 @@
 
         <header class="cabeçalho">
             <div class="Titulo">
-                <img src="../CONTEUDO/logo2.2.jpg">
+                <img src="../CONTEUDO/logo2.2.jpg" onclick="restrito()">
                 <h3>ESPAÇO DAS MANAS</h3>
             </div>
             <nav id="nav">
@@ -128,5 +128,10 @@
     </main>
 </body>
 <script src="../JS/cabeçalho_responsivo.js"></script>
+<script>
+    function restrito(){
+        window.location.href = 'login.html'
+    }
+</script>
 
 </html>

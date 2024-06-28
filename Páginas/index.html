@@ -20,7 +20,7 @@
 
         <header class="cabeçalho">
             <div class="Titulo">
-                <img src="../Páginas/CONTEUDO/logo2.2.jpg">
+                <img src="../Páginas/CONTEUDO/logo2.2.jpg" onclick="restrito()">
                 <h3>ESPAÇO DAS MANAS</h3>
             </div>
             <nav id="nav">
@@ -231,6 +231,11 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="JS/carrossel.js"></script>
     <script src='JS/cabeçalho_responsivo.js'></script>
+    <script>
+        function restrito(){
+            window.location.href = 'HTML/login.html'
+        }
+    </script>
 </body>
 
 </html>

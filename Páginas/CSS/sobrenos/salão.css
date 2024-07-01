@@ -100,4 +100,10 @@ div h2{
     .Video{
         display: none;
     }
+    .font3{
+        display: none;
+    }
+    .font2{
+        position: static !important;
+    }
 }
